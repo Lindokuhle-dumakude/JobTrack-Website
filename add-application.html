@@ -21,5 +21,81 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+      <section>
+        <h1>Fill in Application Below:</h1>
+
+        <form action="#">
+          <div>
+            <label for="company-name">Company Name:</label>
+            <input
+              type="text"
+              name="company-name"
+              id="company-name"
+              placeholder="JobTrack"
+              required
+            />
+          </div>
+
+          <br />
+          <div>
+            <label for="job-title">Job Title:</label>
+            <input
+              type="text"
+              name="job-title"
+              id="job-title"
+              placeholder="Administrative Assistant"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="job-link">Job Link:</label>
+            <input
+              type="url"
+              name="job-link"
+              id="job-link"
+              placeholder="https://www.JobTrack.co.za/about/careers/applications/job/12345"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="status">Status:</label>
+            <select name="status" id="status">
+              <option value="Applied">Applied</option>
+              <option value="Interview">Interview</option>
+              <option value="Offer">Offer</option>
+              <option value="Rejected">Rejected</option>
+            </select>
+          </div>
+
+          <br />
+
+          <div>
+            <label for="notes">Notes:</label>
+
+            <textarea name="notes" id="notes"></textarea>
+          </div>
+
+          <br />
+
+          <div>
+            <label for="date">Date:</label>
+
+            <input type="date" name="date" id="date" required />
+          </div>
+        </form>
+
+        <br />
+
+        <button type="submit">Submit</button>
+      </section>
+    </main>
   </body>
 </html>
