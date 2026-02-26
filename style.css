@@ -38,3 +38,18 @@ header {
   padding-left: 10px;
   background-color: white;
 }
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
