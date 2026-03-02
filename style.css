@@ -1,11 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html,
+:root {
+  --space-mb: 12px;
+  --space-padding-paragraph: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  margin: 0;
   background-color: #f7f8f0;
   color: #000000;
+  line-height: 1.6;
 }
 
 h1 {
@@ -20,8 +29,15 @@ h3 {
   font-size: 20px;
 }
 
+h1,
+h2,
+h3 {
+  margin-bottom: var(--space-mb);
+}
+
 p {
   font-size: 16px;
+  padding: var(--space-padding-paragraph);
 }
 
 header > img {
@@ -60,7 +76,8 @@ main {
   padding: 2rem;
 }
 
-main .application-progress {
+main .welcome,
+.application-progress {
   margin: 30px 0px;
 }
 
@@ -120,6 +137,27 @@ td {
 
 table tbody tr {
   border-bottom: 1px solid #dddddd;
+}
+
+footer {
+  background-color: #7aaace;
+}
+
+footer > * {
+  text-align: center;
+}
+
+footer > h3 {
+  padding-top: 12px;
+}
+
+footer > nav ul li {
+  padding: 4px;
+}
+
+footer > section .contacts {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 @media (max-width: 768px) {
