@@ -85,11 +85,11 @@ main .welcome,
   padding: 12px 10px;
 }
 
-.application-actions > nav {
+.application-actions > div {
   display: flex;
   gap: 30px;
-  margin: 16px 0;
-  padding: 12px 10px;
+  margin: 12px 0;
+  padding: 8px 0;
 }
 
 form {
@@ -222,6 +222,53 @@ footer nav ul li a:active {
 
 .contacts a:active {
   color: orangered;
+}
+
+.add-application-link-btn,
+.submit-btn-wrapper {
+  margin: 0.75rem 0;
+  padding: 0.5rem 0;
+}
+
+.add-application-link-btn a,
+.edit-application-btn a,
+.back-to-applications-btn a,
+.submit-form-btn {
+  background-color: #ff9b51;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.add-application-link-btn a:hover,
+.add-application-link-btn a:hover,
+.edit-application-btn a:hover,
+.submit-form-btn:hover {
+  background-color: #f27f2d;
+  opacity: 0.9;
+}
+
+.add-application-link-btn a:focus,
+.edit-application-btn a:focus,
+.back-to-applications-btn a:focus,
+.submit-form-btn:focus {
+  outline: 1px solid #000;
+}
+
+.edit-application-btn,
+.back-to-applications-btn {
+  padding: 0.5rem 0;
+}
+
+.submit-btn-wrapper {
+  text-align: center;
+}
+
+.submit-form-btn {
+  font-family: inherit;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  width: 20%;
 }
 
 @media (max-width: 768px) {
