@@ -76,6 +76,11 @@ main {
   padding: 2rem;
 }
 
+.welcome,
+.about {
+  text-align: justify;
+}
+
 main .welcome,
 .application-progress {
   margin: 30px 0px;
@@ -317,6 +322,26 @@ table tbody tr:hover {
   header > nav > ul {
     gap: 1rem;
   }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  a {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -325,7 +350,86 @@ table tbody tr:hover {
     font-size: 12px;
   }
 
+  header nav {
+    margin-bottom: 12px;
+    padding: 8px;
+  }
+
   header nav > ul {
     padding-left: 10px;
+  }
+
+  header img {
+    width: 120px;
+    height: 120px;
+    margin: 12px 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  .table-wrapper th {
+    font-size: 0.875rem;
+  }
+
+  .table-wrapper td {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    padding-right: 10px;
+  }
+
+  header nav ul {
+    padding-left: 0;
+  }
+
+  .application-form fieldset legend {
+    font-size: 1rem;
+  }
+
+  label {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.875rem;
+  }
+
+  .application-form fieldset legend {
+    font-size: 0.75rem;
+  }
+
+  label {
+    font-size: 0.75rem;
+  }
+
+  .application-actions > div {
+    gap: 0.5rem;
   }
 }
