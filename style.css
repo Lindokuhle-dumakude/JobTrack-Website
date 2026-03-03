@@ -240,8 +240,8 @@ footer nav ul li a:active {
 }
 
 .add-application-link-btn a:hover,
-.add-application-link-btn a:hover,
 .edit-application-btn a:hover,
+.back-to-applications-btn a:hover,
 .submit-form-btn:hover {
   background-color: #f27f2d;
   opacity: 0.9;
