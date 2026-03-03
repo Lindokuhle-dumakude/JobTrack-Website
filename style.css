@@ -160,6 +160,70 @@ footer > section .contacts {
   grid-template-columns: 1fr;
 }
 
+header nav ul li a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+header nav ul li a:focus {
+  color: orangered;
+}
+
+.welcome .about-us-link {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.about-us-link a {
+  padding: 4px;
+}
+
+.about-us-link a:any-link {
+  color: blue;
+}
+
+.about-us-link a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.about-us-link a:focus {
+  color: orangered;
+}
+
+table tbody tr td a:any-link {
+  color: blue;
+}
+
+table tbody tr td a:active {
+  color: orangered;
+}
+
+table tbody tr td a:hover {
+  text-decoration: underline;
+}
+
+footer nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer nav ul li a:active {
+  color: #e6e6e6;
+}
+
+.contacts a:any-link {
+  color: darkblue;
+}
+
+.contacts a:hover {
+  text-decoration: underline;
+}
+
+.contacts a:active {
+  color: orangered;
+}
+
 @media (max-width: 768px) {
   header {
     padding-right: 20px;
