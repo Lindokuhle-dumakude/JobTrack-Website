@@ -297,6 +297,18 @@ table tbody tr:hover {
   background-color: #eaefef;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+.application-progress h2,
+.add-application-link-btn {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   header {
     padding-right: 20px;
