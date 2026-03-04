@@ -1,11 +1,11 @@
 # JobTrack 🚀
 
-JobTrack is a simple job application tracking tool 💼 designed to help job seekers
+JobTrack is a job application tracking web app 💼 designed to help job seekers
 organize, track, and manage their job applications in one place 📌.
 
 The project is being built incrementally 🧩 as part of a full-stack web development
-learning journey 💻, starting with semantic HTML and expanding into styling,
-interactivity ⚡, and backend functionality 🔧.
+learning journey 💻, starting with semantic HTML and expanding into responsive UI
+styling, interactivity ⚡, and backend functionality 🔧.
 
 ---
 
@@ -13,15 +13,20 @@ interactivity ⚡, and backend functionality 🔧.
 
 - Dashboard overview of job applications 📊
 - Add new job applications using a form 📝
-- View a list of all applications 📋
+- View a list of all applications in a styled table 📋
 - View detailed information for each application 🔍
 - Track application status, notes, and follow-up dates ⏳
+- Responsive layout for mobile, tablet, and desktop 📱💻
+- Accessible form inputs with focus states ♿
+- Reusable navigation and button components 🎯
+- Consistent typography and spacing system 🎨
 
 ---
 
 ## Technologies Used 🛠️
 
 - HTML5 🌐
+- CSS3 (Flexbox, Grid, Media Queries) 🎨
 
 ---
 
@@ -37,18 +42,20 @@ No additional setup is required at this stage ✅.
 
 ## Project Status 🚧
 
-This project is currently under active development 🔄.
-Styling and interactivity will be added in future phases 🔜.
+The UI and responsive styling phase is complete ✅.
+The project is now ready for JavaScript functionality and data handling 🔜.
 
 ---
 
 ## Future Improvements 🔮
 
-- Responsive design with CSS 🎨
-- Client-side interactivity with JavaScript ⚙️
-- Persistent data storage 💾
-- User authentication 🔐
-- Backend API integration 🔗
+- ✅ Responsive design with CSS 🎨
+- ⬜ Client-side interactivity with JavaScript ⚙️
+- ⬜ Form validation and error handling 🚨
+- ⬜ Persistent data storage using localStorage or a backend 💾
+- ⬜ User authentication 🔐
+- ⬜ Backend API integration 🔗
+- ⬜ Accessibility enhancements with ARIA attributes ♿
 
 ---
 
