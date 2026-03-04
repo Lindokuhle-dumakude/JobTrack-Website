@@ -42,9 +42,20 @@ p {
   padding: var(--space-padding-paragraph);
 }
 
+nav > ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 /* CSS reset and default styles ends */
 
-header > img {
+/* Header and navigation styles starts */
+
+.logo {
   width: 160px;
   height: 160px;
   object-fit: cover;
@@ -54,25 +65,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 40px;
-  padding-left: 10px;
+  padding: 0 25px;
   background-color: white;
 }
 
-header > nav > ul {
+.nav-links {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-nav > ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
+/* Header and navigation styles ends */
 
 main {
   max-width: 1100px;
@@ -319,11 +322,7 @@ table tbody tr:hover {
 }
 
 @media (max-width: 768px) {
-  header {
-    padding-right: 20px;
-  }
-
-  header > nav > ul {
+  .nav-links {
     gap: 1rem;
   }
 
@@ -351,19 +350,13 @@ table tbody tr:hover {
 @media (max-width: 480px) {
   header {
     flex-flow: wrap column;
-    font-size: 12px;
   }
 
-  header nav {
-    margin-bottom: 12px;
-    padding: 8px;
+  .nav-bar {
+    margin: 12px 0;
   }
 
-  header nav > ul {
-    padding-left: 10px;
-  }
-
-  header img {
+  .logo {
     width: 120px;
     height: 120px;
     margin: 12px 0;
@@ -396,11 +389,7 @@ table tbody tr:hover {
 
 @media (max-width: 375px) {
   header {
-    padding-right: 10px;
-  }
-
-  header nav ul {
-    padding-left: 0;
+    padding: 0 12px;
   }
 
   .application-form fieldset legend {
