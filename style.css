@@ -218,6 +218,8 @@ tbody tr {
 
 /* Main layout and styles ends */
 
+/* Footer styles starts */
+
 footer {
   background-color: #7aaace;
 }
@@ -226,18 +228,20 @@ footer > * {
   text-align: center;
 }
 
-footer > h3 {
+footer h3 {
   padding-top: 12px;
 }
 
-footer > nav ul li {
+.footer-nav-links li {
   padding: 4px;
 }
 
-footer > section .contacts {
+footer section .contacts {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+/* Footer styles ends */
 
 header nav ul li a:hover {
   color: #2563eb;
