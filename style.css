@@ -116,20 +116,24 @@ main {
 
 /* Home page styles end */
 
-.job-details > p {
-  padding: 12px 10px;
-}
-
-.application-actions > div {
-  display: flex;
-  gap: 30px;
-  margin: 12px 0;
-  padding: 8px 0;
-}
+/* Form page styles start */
 
 .application-form h1 {
   margin-bottom: 1.25rem;
   text-align: center;
+}
+
+fieldset {
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 600px;
+  padding: 1rem 2rem;
+}
+
+legend {
+  font-size: 1.25rem;
+  padding: 0 0.75rem;
 }
 
 label {
@@ -148,9 +152,31 @@ form textarea {
   border-radius: 6px;
 }
 
-form > button {
-  padding: 0.6rem 1.2rem;
+.submit-btn-wrapper {
+  text-align: center;
+}
+
+.submit-form-btn {
+  font-family: inherit;
+  font-size: 0.875rem;
+  border: none;
   cursor: pointer;
+  padding: 12px 24px;
+  background-color: #ff9b51;
+  border-radius: 0.5rem;
+}
+
+/* Form page styles end */
+
+.job-details > p {
+  padding: 12px 10px;
+}
+
+.application-actions > div {
+  display: flex;
+  gap: 30px;
+  margin: 12px 0;
+  padding: 8px 0;
 }
 
 table {
@@ -272,8 +298,7 @@ footer nav ul li a:active {
 
 .add-application-link-btn a,
 .edit-application-btn a,
-.back-to-applications-btn a,
-.submit-form-btn {
+.back-to-applications-btn a {
   background-color: #ff9b51;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -297,31 +322,6 @@ footer nav ul li a:active {
 .edit-application-btn,
 .back-to-applications-btn {
   padding: 0.5rem 0;
-}
-
-.submit-btn-wrapper {
-  text-align: center;
-}
-
-.submit-form-btn {
-  font-family: inherit;
-  font-size: 0.875rem;
-  border: none;
-  cursor: pointer;
-  padding: 12px 24px;
-}
-
-fieldset {
-  margin: auto;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  max-width: 600px;
-  padding: 1rem 2rem;
-}
-
-legend {
-  font-size: 1.25rem;
-  padding: 0 0.75rem;
 }
 
 form input:focus,
@@ -405,7 +405,7 @@ table tbody tr:hover {
     padding: 0 12px;
   }
 
-  .application-form fieldset legend {
+  legend {
     font-size: 1rem;
   }
 
@@ -427,7 +427,7 @@ table tbody tr:hover {
     font-size: 0.875rem;
   }
 
-  .application-form fieldset legend {
+  legend {
     font-size: 0.75rem;
   }
 
