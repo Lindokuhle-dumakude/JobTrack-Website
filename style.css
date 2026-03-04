@@ -168,16 +168,7 @@ form textarea {
 
 /* Form page styles end */
 
-.job-details > p {
-  padding: 12px 10px;
-}
-
-.application-actions > div {
-  display: flex;
-  gap: 30px;
-  margin: 12px 0;
-  padding: 8px 0;
-}
+/* Table page styles start */
 
 table {
   min-width: 400px;
@@ -187,20 +178,33 @@ table {
   overflow: hidden;
 }
 
-table > thead > tr {
+thead tr {
   background-color: #9cd5ff;
   color: #000000;
   text-align: left;
   font-weight: bold;
 }
 
-table th,
+th,
 td {
   padding: 17px 20px;
 }
 
-table tbody tr {
+tbody tr {
   border-bottom: 1px solid #dddddd;
+}
+
+/* Table page styles end */
+
+.job-details > p {
+  padding: 12px 10px;
+}
+
+.application-actions > div {
+  display: flex;
+  gap: 30px;
+  margin: 12px 0;
+  padding: 8px 0;
 }
 
 /* Main layout and styles ends */
