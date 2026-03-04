@@ -196,6 +196,8 @@ tbody tr {
 
 /* Table page styles end */
 
+/* Application details page start */
+
 .job-details > p {
   padding: 12px 10px;
 }
@@ -206,6 +208,13 @@ tbody tr {
   margin: 12px 0;
   padding: 8px 0;
 }
+
+.edit-application-btn,
+.back-to-applications-btn {
+  padding: 0.5rem 0;
+}
+
+/* Application details page end */
 
 /* Main layout and styles ends */
 
@@ -321,11 +330,6 @@ footer nav ul li a:active {
 .back-to-applications-btn a:focus,
 .submit-form-btn:focus {
   outline: 1px solid #000;
-}
-
-.edit-application-btn,
-.back-to-applications-btn {
-  padding: 0.5rem 0;
 }
 
 form input:focus,
