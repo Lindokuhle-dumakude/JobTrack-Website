@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* CSS reset and default styles starts */
+
 :root {
   --space-mb: 12px;
   --space-padding-paragraph: 8px;
@@ -18,15 +20,15 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h1,
@@ -36,9 +38,11 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   padding: var(--space-padding-paragraph);
 }
+
+/* CSS reset and default styles ends */
 
 header > img {
   width: 160px;
