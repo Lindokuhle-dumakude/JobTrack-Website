@@ -7,6 +7,8 @@ The project is being built incrementally 🧩 as part of a full-stack web develo
 learning journey 💻, starting with semantic HTML and expanding into responsive UI
 styling, interactivity ⚡, and backend functionality 🔧.
 
+**Live Demo:** [View Site](https://lindokuhle-dumakude.github.io/JobTrack-Website/)
+
 ---
 
 ## Features ✨
